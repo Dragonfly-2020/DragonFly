@@ -1,0 +1,81 @@
+.nav{height:50px;
+      background:#ffffff;}
+ .nav div{
+ 				display:inline-block;
+ 				position:absolute;
+ 				left:0;
+ 				padding:15px;
+ 				font-size:20px;
+ 				color:black;
+ 				
+ 				}
+ 				.nav ul{
+ 								position:absolute;
+ 								right:5px;}
+ 								
+ 				.nav ul li{
+ 							display:inline-block;	}
+ 				.nav ul li a{
+ 								color:black;
+ 							padding:5px;	}
+ 							
+ 				.home{
+ 								background:url("../images/WEB.png");
+ 								background-size:cover;
+ 								height:100vh;
+ 								}
+ 				.home .text-container{
+ 								text-align:center;
+ 								display:flex;
+ 								align-items:center;
+ 								justify-content:center;
+ 								height:90vh;
+ 								
+ 								}
+ 								
+ 								@import url('https//font.googleapis.com/css?family=Roboto');
+ 								
+ 				.about{
+ 								background-color:black;
+ 								background-size:cover;
+ 								height:100vh;}
+ 					.about .about-content{
+ 									margin:150px auto 0 auto;
+ 									width:500px;}
+ 						.about .about-content h1{
+ 										text-align:center;
+ 										font-family:'Roboto', sans-serif;
+ 										color:red;
+ 										font-size:50px;
+ 										}
+ 						.about .about-content p{
+ 										text-align:center;
+ 										color:#ffe8e8;
+ 										font-size:30px;}
+ 										
+ 				.services h1{
+ 								color:green;}
+ 								
+ 							.services .services-content {
+ 														margin:80px auto 0 auto;
+ 											text-align:center;
+ 										
+ 										}
+ 							.services .services-content .card-container ul{padding: 0;}
+.services .services-content .card-container ul li {
+list-style: none;
+display: inline-block;
+margin: 20px;
+width: 300px;
+}
+
+.service-content.card-conatainer ul li p{
+				text-align:justify;}
+				
+				.contact h1{
+								color:yellow;}
+				
+		.contact .contact-content{
+						margin:80px auto 0 auto;
+						text-align:center;}
+
